@@ -7,7 +7,7 @@ This is a project which entails Pizza website.It allows the customer to make ord
 
 ## Live link to the website
 
-
+https://habib001-coder.github.io/Khabeeby-Pizza-In/
 
 ## License
 * *MIT License:*
