@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144351462-1"></script>
-  <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-144351462-1');
-</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -19,7 +10,9 @@
   <link rel="stylesheet" href="css/wickedcss.min.css">
   <link rel="stylesheet" href="js/bootstrap.min.js">
   <link rel="stylesheet" href="css/styles.css">
-
+  <script  src="js/jquery-3.4.1.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 
 </head>
 <body>
@@ -27,7 +20,7 @@
     <div class="view landing">
       <div id="overlay">
           <nav class="navbar navbar-expand-sm bg-success navbar-dark fixed-top">
-            <a class="navbar-brand" href="#">Khabeeby Pizza In</a>
+            <!-- <a class="navbar-brand" href="#">Khabeeby Pizza In</a> -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -40,7 +33,6 @@
                   <a class="nav-link" href="#variety">Our Varieties</a>
                 </li>
                 <li class="nav-item">
-                  <!-- <a class="nav-link" href="#make order">Make Order</a> -->
                 </li>    
               </ul>
             </div>  
@@ -56,7 +48,6 @@
               </div>
             </div>
           </div>
-          <div class="arrow bounce"> <a href="#variety"> <img src="images/arrow.ico" alt=" arrow"width="40px"></a></div>
       </div>
     </div>
   </header>
@@ -70,7 +61,7 @@
       <div class="col-sm-12 d-flex flex-xs-column">
         <div class="col-sm-7 img text-center about-img">
             <div class="about-pic">
-              <img src="./images/pizza 007.jpg" alt="about-us">
+              <img src="./image/pizza 007.jpg" alt="about-us">
             </div>
         </div>
         <div class="col-sm-5 align-items-center">
@@ -83,9 +74,7 @@
         </div>
       </div>
   </div> 
-
-
-  <div class="container carousel slide carousel-multi-item" data-ride="carousel" id="variety">
+   <div class="container carousel slide carousel-multi-item" data-ride="carousel" id="variety">
     <div class="controls-top "> 
       <h2>Our Varieties</h2>
     </div>
@@ -93,7 +82,7 @@
       <div class="carousel-item active">
         <div class="col-md-4">
           <div class="card mb-2">
-            <img class="card-img-top" src="./images/pizaa oo1.jpg" alt="Card image cap">
+            <img class="card-img-top" src="./image/pizza1.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Chicken Tikka</h5>
             </div>
@@ -102,7 +91,7 @@
   
         <div class="col-md-4">
           <div class="card mb-2">
-            <img class="card-img-top" src="./images/pizza 002.jpg" alt="Card image cap">
+            <img class="card-img-top" src="./image/pizza2.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">PeriPeri Pizza</h5>
             </div>
@@ -111,7 +100,7 @@
   
         <div class="col-md-4">
           <div class="card mb-2">
-            <img class="card-img-top" src="./images/pizza 003.jpg" alt="Card image cap">
+            <img class="card-img-top" src="./image/pizza3.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Raspberry Dessert Pizza</h5>
             </div>
@@ -121,7 +110,7 @@
       <div class="carousel-item">
         <div class="col-md-4">
           <div class="card mb-2">
-            <img class="card-img-top" src="./images/pizza 004.jpg" alt="Card image cap">
+            <img class="card-img-top" src="./image/pizza4.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Chicken Alfredo Pizza</h5>
             </div>
@@ -129,7 +118,7 @@
         </div>
         <div class="col-md-4">
           <div class="card mb-2">
-            <img class="card-img-top" src="./images/pizza 006.jpg" alt="Card image cap">
+            <img class="card-img-top" src="./image/pizza 006.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Sunchoke Pizza</h5>
             </div>
@@ -138,7 +127,7 @@
   
         <div class="col-md-4">
           <div class="card mb-2">
-            <img class="card-img-top" src="./images/pizza 007.jpg" alt="Card image cap">
+            <img class="card-img-top" src="./image/pizza 007.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title"> Buffalo Chicken Sticks</h5>
             </div>
@@ -199,7 +188,7 @@
               
             </form>
           </div>
-          <!-- <div class="col-sm-7">
+           <div class="col-sm-7">
             <div id="information">
               <p>Delivery pap! at your door once you make order.</p>
               <p>Ensure that you have all the cost for the order.</p>
@@ -248,10 +237,9 @@
                 </form>
             </div>
           </div>
-      </div> -->
+      </div>
+    </div>
     </div>
   </div>
- 
-  <script src="js/script.js"></script>
 </body>
 </html>
