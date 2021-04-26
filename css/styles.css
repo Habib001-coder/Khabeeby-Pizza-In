@@ -35,6 +35,7 @@ h5 {
 nav .navbar{
   width: 100%;
   padding-right: 0px;
+  text-align: right;
 }
 .navbar-brand{
   margin-right: 30%;
@@ -44,17 +45,17 @@ nav .navbar{
   /* padding-right: 50px; */
   font-size: 20px;
   font-weight: 700;
+  text-align: right;
 }
 
 .landing{
-  background-image: url("../images/cheese.jpg");
+  background-image: url("../images/cheese.jp");
   background-position: cover;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment:fixed;
-  padding-bottom: 20px;
-  position: relative;
   overflow-x: hidden;
+  position: relative;
 }
 .text a{
   font-size: 20px;
@@ -252,6 +253,8 @@ h1 {
   padding-left: 20%;
   display: flex;
   flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
 }
 .iframe{
   width: 300px;
