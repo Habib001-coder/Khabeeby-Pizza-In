@@ -91,11 +91,12 @@ nav .navbar{
 }
 .about-pic {
   height: 100%;
-  background-image: url(../image/pizza1.jpg);
+  background-image: url(../image/pizzabg.jpg);
   background-color: #ffa500;
   padding-top: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
+  background-repeat: no-repeat;
   padding-left: 0px;
 }
 #about-us .content{
