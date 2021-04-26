@@ -6,7 +6,6 @@
 This is a project which entails Pizza website.It allows the customer to make order and found out the total of his order.
 
 ## Live link to the website
-
 https://habib001-coder.github.io/Khabeeby-Pizza-In/
 
 ## License
